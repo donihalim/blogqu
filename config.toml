@@ -1,0 +1,110 @@
+#image horizontal = 1920x1281px
+#image vertical = 1920x1440px
+
+baseURL = "https://hervyqa.com/"
+languageCode = "en-us"
+DefaultContentLanguage = "id"
+theme = "less"
+googleAnalytics = "UA-144344761-1"
+RemovePathAccents = true
+timeout = 200000
+enableRobotsTXT = true
+canonifyURLs = true
+paginate = 9
+
+[author]
+  name = "Hervy Qurrotul Ainur"
+
+#[blackfriday]
+#  hrefTargetBlank = true
+#  noreferrerLinks = true
+#  nofollowLinks = true
+
+[permalinks]
+  posts = "/:slug"
+  categories = "/:slug"
+
+[imaging]
+  resampleFilter = "lanczos"
+
+[params]
+  sizes = [ "2048" , "1024" , "512" ]
+  tags = []
+
+  # fonts
+  sansSerifFont = "Josefin Sans"
+  titleFont = "Crimson Text"
+  bodyFont = "Lora"
+
+  hasLogo = true
+  accentColor = "#019CB5"
+
+# heroHeader = true
+
+[taxonomies]
+  category = "categories"
+
+[params.titles]
+  posts = "Desain"
+  categories = "Kategori"
+
+[params.social]
+  email = "hervyqa@gmail.com"
+  domain = "Hervy Qurrotul Ainur"
+  instagram = "hervyqa"
+  twitter = "hervyqa"
+  youtube = "Hervyqa"
+  facebook = "Hervyqa"
+  github = "hervyqa"
+  gitlab = "hervyqa"
+  dribbble = "hervyqa"
+  behance = "hervyqa"
+  paypal = "hervyqa"
+  telegram = "hervyqa"
+
+[[menu.main]]
+name = "Desain Grafis"
+title = "Belajar Desain Grafis"
+  weight = 1
+  identifier = "desain"
+  url = "/desain"
+[[menu.main]]
+name = "Dokumen"
+title = "Belajar Mengetik dengan Libre Office"
+  weight = 2
+  identifier = "dokumen"
+  url = "/dokumen"
+[[menu.main]]
+  name = "Free Template"
+  title = "Free Template Libre Office"
+  weight = 3
+  identifier = "free"
+  url = "/free"
+#[[menu.main]]
+#  name = "Premium Template"
+#  title = "Premium Template Libre Office"
+#  weight = 4
+#  identifier = "premium"
+#  url = "/premium"
+[[menu.main]]
+  name = "Manjaro-X"
+  title = "Unofficial Manjaro GNOME Distribution"
+  weight = 5
+  identifier = "manjaro-x"
+  url = "https://manjaro-x.netlify.com"
+[[menu.main]]
+  name = "Profil"
+  title = "Info & kontak"
+  weight = 6
+  identifier = "profil"
+  url = "/profil"
+
+# For footer
+[params.license]
+  type = "CC BY-NC 4.0"
+  url = "/cc-by-nc"
+
+[[related.indices]]
+  name = "categories"
+  weight =  1 # We don't really need this, but omitting it would disable the indice.
+  includeNewer = true

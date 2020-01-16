@@ -1,0 +1,25 @@
+{{ block "header" . }}
+    <header class="main_header">
+      <div class="wrapped">
+      <span class="title">
+        <a href="/">
+          {{ if .Site.Params.hasLogo }}
+            <img src="/logo.svg" />
+          {{ else }}
+            {{ .Site.Title }}
+          {{ end }}
+        </a>
+      </span>
+
+      <input id="burger" type="checkbox" />
+
+      <label class="burger_label" for="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      {{ partial "main_menu" . }}
+      {{ partial "social_icons" . }}
+      </div>
+    </header>
+{{ end }}

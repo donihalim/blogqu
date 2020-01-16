@@ -1,0 +1,99 @@
+Belum fix
+
+- Komentar about +
+- Foto about +
+- Lisensi cc by-nc-sa +
+- Artikel dokumen +
+- Template free +
+- Template premium
+- Petunjuk transfer +
+- Preview template +
+- Harga 75ribu
+
+Petunjuk Deploy
+
+1. Ketika membuat kategori baru pastikan di direktori "/categories" sudah dibuat, agar tidak error dan bisa dideploy.
+2. Ketika di posts ada kategori TIDAK diperlukan maka HAPUSLAH kategori tersebut di "/categories", agar tidak error dan bisa dideploy.
+3. Title pada kategori HARUS satu kata dan Titlecase.
+
+Petunjuk membuat cover web 
+
+- ukuran 1920x1281px
+
+A. Menu:
+
+- desain
+- dokumen
+- free
+- premium
+- profil
+
+B. Kategori:
+nb  : tanda (+) maka sudah dibuat.
+
+- desain (+)
+    - inkscape (+)
+    - lisensi (+)
+    - gimp
+    - krita
+    - perkakas (+)
+- dokumen (+)
+    - impress (+) 
+    - writer
+    - calc
+    - scribus
+- free (+)
+    - gnome (+)
+- premium
+    - bisnis
+    - pendidikan
+    - olahraga
+    - wisata
+    - teknologi
+    - aplikasi
+    - pemerintah
+    - hukum
+    - psikologi
+    - acara
+    - komunitas
+    - astronomi
+    
+- desktop
+
+- cc-by-nc (footer)
+
+C. Fitur Free dan Premium:
+
+  1. Free.
+- Libreoffice Impress Template maksimal 15 slide (otp)
+- Berkas desain SVG maksimal 15 slide
+- Isi zip:
+      presentation.otp - (15 slide)
+      aset-presentasi/*.svg - (15 slide)
+      license-cc-by-nc-sa.txt
+
+  2. Premium.
+- Libreoffice Impress Template semua slide (otp)
+- Libreoffice Writer A4 Proposal Template (ott)
+- Berkas desain SVG dan PDF semua slide Presentasi
+- Berkas desain SVG dan PDF semua slide A4 Proposal
+- Isi zip:
+      presentasi.otp - (full)
+      aset-presentasi/*.svg - (full)
+      aset-presentasi/*.pdf - (full)
+      proposal.ott - (full)
+      aset-proposal/*.svg - (full)
+      aset-proposal/*.pdf - (full)
+      license-cc-by-nc-sa.txt
+
+D. Tabel Perbandingan:
+
+|-------------------------------------------------|-------|---------|
+| Fitur                                           | Free  | Premium |
+|-------------------------------------------------|-------|---------|
+| Slide Libre office impress template (otp)       |  15   |   Full  |
+| Berkas desain SVG Presentasi                    |  15   |   Full  |
+| Berkas desain PDF Presentasi                    |  15   |   Full  |
+| Libreoffice Writer A4 Proposal template (ott)   |  -    |   Full  |
+| Berkas desain SVG A4 Proposal                   |  -    |   Full  |
+| Berkas desain PDF A4 Proposal                   |  -    |   Full  |
