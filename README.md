@@ -1,3 +1,3 @@
-# Hervy Qurrotul Ainur Blog
+# Log Horizon
 
-This is automatically synced with Netlify
+Bismillah konsisten.
