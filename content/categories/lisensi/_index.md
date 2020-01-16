@@ -1,5 +1,5 @@
 ---
 title: "Lisensi"
-seotitle: "Lisensi - Hervy Qurrotul Ainur Rozi"
+seotitle: "Lisensi - Log Horizon"
 description: "Memahami lisensi dengan Free Software."
 ---

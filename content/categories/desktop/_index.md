@@ -1,5 +1,5 @@
 ---
 title: "Desktop"
-seotitle: "Desktop - Hervy Qurrotul Ainur Rozi"
+seotitle: "Desktop - Log Horizon"
 description: "Kumpulan tips pengaturan desktop."
 ---

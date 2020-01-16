@@ -7,9 +7,9 @@ seotitle: ""
 description : ""
 slug: ""
 categories:
-- aplikasi
-- desktop
-- free
+- android
+- linux
+- raspberrypi
 resources:
 - src: "cover.jpeg"
   name: "cover"

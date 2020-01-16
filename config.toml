@@ -1,11 +1,11 @@
 #image horizontal = 1920x1281px
 #image vertical = 1920x1440px
 
-baseURL = "https://hervyqa.com/"
+baseURL = "/"
 languageCode = "en-us"
 DefaultContentLanguage = "id"
 theme = "less"
-googleAnalytics = "UA-144344761-1"
+googleAnalytics = ""
 RemovePathAccents = true
 timeout = 200000
 enableRobotsTXT = true
@@ -13,7 +13,7 @@ canonifyURLs = true
 paginate = 9
 
 [author]
-  name = "Hervy Qurrotul Ainur"
+  name = "Doni Halim"
 
 #[blackfriday]
 #  hrefTargetBlank = true
@@ -45,57 +45,44 @@ paginate = 9
   category = "categories"
 
 [params.titles]
-  posts = "Desain"
+  posts = "Linux"
   categories = "Kategori"
 
 [params.social]
-  email = "hervyqa@gmail.com"
-  domain = "Hervy Qurrotul Ainur"
-  instagram = "hervyqa"
-  twitter = "hervyqa"
-  youtube = "Hervyqa"
-  facebook = "Hervyqa"
-  github = "hervyqa"
-  gitlab = "hervyqa"
-  dribbble = "hervyqa"
-  behance = "hervyqa"
-  paypal = "hervyqa"
-  telegram = "hervyqa"
+  email = "donihalim@protonmail.com"
+  domain = "Doni Halim"
+  instagram = "dsnvhlmb"
+  twitter = "dsnvhlm"
+  facebook = "drtunicorn"
+  github = "donihalim"
+  gitlab = "donihalim"
+  dribbble = "testoo"
+  behance = "testoo"
+  paypal = "testoo"
+  telegram = "dsnvhlm"
 
 [[menu.main]]
-name = "Desain Grafis"
-title = "Belajar Desain Grafis"
+name = "Android"
+title = "Belajar Sistem Operasi Android"
   weight = 1
-  identifier = "desain"
-  url = "/desain"
+  identifier = "android"
+  url = "/android"
 [[menu.main]]
-name = "Dokumen"
-title = "Belajar Mengetik dengan Libre Office"
+name = "Linux"
+title = "Belajar Sistem Operasi Linux"
   weight = 2
-  identifier = "dokumen"
-  url = "/dokumen"
+  identifier = "linux"
+  url = "/linux"
 [[menu.main]]
-  name = "Free Template"
-  title = "Free Template Libre Office"
+  name = "Raspberry Pi"
+  title = "Perangkat Raspberry Pi"
   weight = 3
-  identifier = "free"
-  url = "/free"
-#[[menu.main]]
-#  name = "Premium Template"
-#  title = "Premium Template Libre Office"
-#  weight = 4
-#  identifier = "premium"
-#  url = "/premium"
-[[menu.main]]
-  name = "Manjaro-X"
-  title = "Unofficial Manjaro GNOME Distribution"
-  weight = 5
-  identifier = "manjaro-x"
-  url = "https://manjaro-x.netlify.com"
+  identifier = "raspberrypi"
+  url = "/raspberrypi"
 [[menu.main]]
   name = "Profil"
   title = "Info & kontak"
-  weight = 6
+  weight = 4
   identifier = "profil"
   url = "/profil"
 
