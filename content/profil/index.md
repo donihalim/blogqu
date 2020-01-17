@@ -10,9 +10,11 @@ resources:
   name: "cover"
 ---
 
-![Banner](banner.png)
 
 ## **ᮝᮤᮜᮥᮏᮨᮀ ᮞᮥᮙ᮫ᮕ**
+
+![Banner](banner.png)
+
 **Sampurasun**, saya [Doni](https://itsdoni.netlify.com), pemilik sekaligus penulis artikel di blog *Log Horizon*. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. 
 
 ***
