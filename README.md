@@ -1,3 +1,3 @@
-# Log Horizon
+# ᮝᮤᮜᮥᮏᮨᮀ ᮞᮥᮙ᮫ᮕ
 
-Bismillah konsisten.
+Repo ini tersinkronisasi secara otomatis dengan netlify.
