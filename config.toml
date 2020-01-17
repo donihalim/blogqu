@@ -32,12 +32,12 @@ paginate = 9
   tags = []
 
   # fonts
-  sansSerifFont = "Josefin Sans"
-  titleFont = "Crimson Text"
-  bodyFont = "Lora"
+  sansSerifFont = "Oswald"
+  titleFont = "Oswald"
+  bodyFont = "Muli"
 
   hasLogo = true
-  accentColor = "#019CB5"
+  accentColor = "#018786"
 
 # heroHeader = true
 
@@ -56,9 +56,6 @@ paginate = 9
   facebook = "drtunicorn"
   github = "donihalim"
   gitlab = "donihalim"
-  dribbble = "testoo"
-  behance = "testoo"
-  paypal = "testoo"
   telegram = "dsnvhlm"
 
 [[menu.main]]

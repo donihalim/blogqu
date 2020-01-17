@@ -12,11 +12,24 @@ resources:
 
 ![Banner](banner.png)
 
-## **Author**
-Hi! saya **Doni Halim**, pemilik sekaligus penulis artikel di blog *Log Horizon*. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. Tujuan membangun blog ini, untuk membagikan hal-hal yang pernah saya pelajari mengenai Android, Linux, dan perangkat Raspberry Pi.
+## **ᮝᮤᮜᮥᮏᮨᮀ ᮞᮥᮙ᮫ᮕ**
+**Sampurasun**, saya [Doni](https://itsdoni.netlify.com), pemilik sekaligus penulis artikel di blog *Log Horizon*. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. Tujuan membangun blog ini, untuk membagikan hal-hal yang pernah saya pelajari.
 
 ***
 
-## **Log Horizon**
+## **Blog**
+**Log Horizon** adalah blog yang membahas seputar sistem operasi Android, Linux dan perangkat Raspberry Pi.
+Blog ini dibangun menggunakan [Hugo](https://gohugo.io/) _static site generator_ di atas sistem operasi
+Android dengan bantuan aplikasi _Termux_.
+
+## **Kontak**
+Jika Anda punya kritik, saran, atau pertanyaan. Hubungi saya melalui alamat dibawah ini :
+- Telegram: [@dsnvhlm](https//t.me/dsnvhlm)
+- Email: [dsnvhlm@gmail.com](mailto:dsnvhlm@gmail.com)
+
+***
+
+## **ᮠᮒᮥᮁ ᮔᮥᮠᮥᮔ᮪**
+
 
 <br style="margin: 30px">
