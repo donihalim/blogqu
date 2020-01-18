@@ -65,7 +65,7 @@ title = "Belajar Sistem Operasi Android"
   identifier = "android"
   url = "/android"
 [[menu.main]]
-name = "Linux"
+name = "GNU/Linux"
 title = "Belajar Sistem Operasi Linux"
   weight = 2
   identifier = "linux"
