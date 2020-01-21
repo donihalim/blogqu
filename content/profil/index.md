@@ -1,6 +1,6 @@
 ---
-title: "Profil - Log Horizon"
-seotitle: "Profil - Log Horizon"
+title: "Profil - Taizen Bois"
+seotitle: "Profil - Taizen Bois"
 date: 2019-07-02T23:11:56+07:00
 draft: false
 type: "about"
@@ -15,12 +15,12 @@ resources:
 
 ![Banner](banner.png)
 
-**Sampurasun**, saya [Doni](https://itsdoni.netlify.com), pemilik sekaligus penulis artikel di blog *Log Horizon*. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. 
+**Sampurasun**, saya [Doni](https://itsdoni.netlify.com), pemilik sekaligus penulis artikel di blog *Taizen Bois*. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. 
 
 ***
 
 ## **Blog**
-**Log Horizon** adalah blog yang membahas seputar sistem operasi Android, Linux dan perangkat Raspberry Pi.
+**Taizen Bois** adalah blog yang membahas seputar sistem operasi Android, Linux dan perangkat Raspberry Pi.
 Blog ini dibangun menggunakan [Hugo](https://gohugo.io/) _static site generator_ di atas sistem operasi
 Android dengan bantuan aplikasi _Termux_. Tujuan membangun blog ini untuk membagikan hal-hal yang
 pernah saya pelajari.

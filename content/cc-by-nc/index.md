@@ -2,7 +2,7 @@
 draft: false
 date: 2019-06-02T23:11:56+07:00
 title: "Lisensi"
-seotitle: "Lisensi - Log Horizon"
+seotitle: "Lisensi - Taizen Bois"
 description : "Jenis lisensi yang digunakan."
 type: "lisensi"
 resources:
