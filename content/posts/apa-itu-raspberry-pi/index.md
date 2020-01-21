@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2020-01-18T16:19:53Z
 title: "Apa Itu Raspberry Pi"
 subtitle: "Mengenal apa itu raspberry pi dan apa saja yang dapat dilakukan perangkat tersebut."
@@ -69,20 +69,7 @@ IoT](https://docs.microsoft.com/en-us/windows/iot-core/downloads).
 Anda dapat mengunjungi laman resmi Raspberry Pi untuk melihat sistem operasi lain nya di:
 [www.raspberrypi.org/downloads](https://www.raspberrypi.org/downloads/)
 
-{{< photo src=".jpeg" alt="" >}}
-
-{{< photo class=fullwidth src=".jpeg" alt="" >}}
-
-{{< photoset max="2" >}}
-  {{< photo src=".jpeg" alt="" >}}
-  {{< photo src=".jpeg" alt="" >}}
-{{</ photoset >}}
-
-{{< photoset max="3" >}}
-  {{< photo src=".jpeg" alt="" >}}
-  {{< photo src=".jpeg" alt="" >}}
-  {{< photo src=".jpeg" alt="" >}}
-{{</ photoset >}}
-
+## **Kegunaan Raspberry Pi**
+Ada banyak hal-hal yang dapat Anda lakukan dengan Raspberry Pi.
 
 ***
