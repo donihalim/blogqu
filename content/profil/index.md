@@ -15,12 +15,12 @@ resources:
 
 ![Banner](banner.png)
 
-**Sampurasun**, saya [Doni](https://itsdoni.netlify.com), pengembang sekaligus penulis artikel di blog *Taizen Bois*. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. 
+**Sampurasun**, saya [Doni](https://itsdoni.netlify.com), pengembang sekaligus penulis artikel di blog _Halim Boi_. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. 
 
 ***
 
 ## **Blog**
-**Taizen Bois** adalah blog yang membahas seputar sistem operasi Android, Linux dan perangkat Raspberry Pi.
+**Halim Boi** adalah blog yang membahas seputar sistem operasi Android, Linux dan perangkat Raspberry Pi.
 Blog ini dibangun menggunakan [Hugo](https://gohugo.io/) _static site generator_ di atas sistem operasi
 Android dengan bantuan aplikasi _Termux_. Tujuan membangun blog ini untuk membagikan hal-hal yang
 pernah saya pelajari.
