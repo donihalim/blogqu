@@ -1,7 +1,7 @@
 #image horizontal = 1920x1281px
 #image vertical = 1920x1440px
 
-baseURL = "/"
+baseURL = "https://halimboi.netlify.com/"
 languageCode = "en-us"
 DefaultContentLanguage = "id"
 theme = "less"
