@@ -1,5 +1,5 @@
 ---
 title: "Raspberrypi"
-seotitle: "Raspberry Pi - Log Horizon"
+seotitle: "Raspberry Pi - Halim Boi"
 description: "Tutorial seputar perangkat raspberry pi."
 ---

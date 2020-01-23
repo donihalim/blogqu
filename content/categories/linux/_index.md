@@ -1,5 +1,5 @@
 ---
 title: "Linux"
-seotitle: "Linux - Log Horizon"
+seotitle: "Linux - Halim Boi"
 description: "Tutorial seputar sistem operasi linux."
 ---

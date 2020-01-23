@@ -1,6 +1,6 @@
 ---
-title: "Profil - Taizen Bois"
-seotitle: "Profil - Taizen Bois"
+title: "Profil - Halim Boi"
+seotitle: "Profil - Halim Boi"
 date: 2019-07-02T23:11:56+07:00
 draft: false
 type: "about"

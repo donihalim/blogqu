@@ -1,5 +1,5 @@
 ---
 title: "Android"
-seotitle: "Android - Log Horizon"
+seotitle: "Android - Halim Boi"
 description: "Tutorial seputar sistem operasi android."
 ---
