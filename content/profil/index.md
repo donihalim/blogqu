@@ -15,7 +15,7 @@ resources:
 
 ![Banner](banner.png)
 
-**Sampurasun**, saya [Doni](https://itsdoni.netlify.com), pemilik sekaligus penulis artikel di blog *Taizen Bois*. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. 
+**Sampurasun**, saya [Doni](https://itsdoni.netlify.com), pengembang sekaligus penulis artikel di blog *Taizen Bois*. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. 
 
 ***
 
