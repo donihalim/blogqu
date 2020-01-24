@@ -13,7 +13,7 @@ resources:
 
 ## **ᮝᮤᮜᮥᮏᮨᮀ ᮞᮥᮙ᮫ᮕ**
 
-![Banner](banner.png)
+![Halimboi](banner.png)
 
 **Sampurasun**, saya [Doni](https://itsdoni.netlify.com), pengembang sekaligus penulis artikel di blog _Halim Boi_. Mulai menggunakan sistem operasi Linux sejak **2016** sampai **sekarang**. Sehari-hari menggunakan Ubuntu sebagai sistem operasi utama. 
 
