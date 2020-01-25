@@ -22,7 +22,8 @@ akan menjadi lebih _pintar_ lagi.
 
 Sebuah _commit_ dari Gerrit AOSP yang berjudul **"Context-aware Bluetooth airplane mode"** meminta Google untuk
 mengubah fungsi dari mode pesawat di Android 11 untuk tidak mematikan Bluetooth saat Anda sedang melakukan
-_streaming_ audio lewat Bluetooth.
+_streaming_ audio lewat Bluetooth. Artinya saat Anda menyalakan mode pesawat, maka Bluetooth tidak akan ikut
+dimatikan jika Bluetooth A2DP sedang terkoneksi.
 
 
 Berikut isi pesan [commit](https://android-review.googlesource.com/c/platform/frameworks/base/+/1179105) tersebut :
