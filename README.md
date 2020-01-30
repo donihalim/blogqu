@@ -1,3 +1,3 @@
-# ᮝᮤᮜᮥᮏᮨᮀ ᮞᮥᮙ᮫ᮕ
+# Blogquᮕ
 
-Repo ini tersinkronisasi secara otomatis dengan netlify.
+Kode sumber dari [Halim Boi](https://halimboi.netlify.com).
