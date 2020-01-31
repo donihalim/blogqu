@@ -128,4 +128,4 @@ $ sudo dnf install @lxde-desktop
 ***
 
 Itulah beberapa hal yang perlu Anda lakukan setelah pertama kali menginstal Fedora GNU/Linux. Jika Anda
-meliki pertanyaan atau saran, silahkan berikan komentar melalui kolow di bawah. Terima Kasih.
+meliki pertanyaan atau saran, silahkan berikan komentar melalui kolom di bawah. Terima Kasih.
