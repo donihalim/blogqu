@@ -15,8 +15,8 @@ paginate = 9
 [author]
   name = "Doni Halim"
 
-#[blackfriday]
-#  hrefTargetBlank = true
+[blackfriday]
+  hrefTargetBlank = true
 #  noreferrerLinks = true
 #  nofollowLinks = true
 
@@ -28,6 +28,8 @@ paginate = 9
   resampleFilter = "lanczos"
 
 [params]
+  googleAdsense = "ca-pub-3520097993586116"
+
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
@@ -39,7 +41,7 @@ paginate = 9
   hasLogo = true
   accentColor = "#29B6F6"
 
-# heroHeader = true
+ heroHeader = true
 
 [taxonomies]
   category = "categories"
