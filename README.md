@@ -1,3 +1,3 @@
 # Blogqu
 
-Kode sumber dari [Halim Boi](https://halimboi.netlify.com).
+Kode sumber [Halim Boi](https://halimboi.netlify.com).
