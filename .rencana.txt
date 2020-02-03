@@ -1,0 +1,4 @@
+# Next Artikel
+
+- Cockpit: monitor sistem GNU/Linux
+- Monitor bandwidth realtime pada sistem GNU/Linux
