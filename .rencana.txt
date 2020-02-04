@@ -1,4 +1,4 @@
 # Next Artikel
-
 - Cockpit: monitor sistem GNU/Linux
 - Monitor bandwidth realtime pada sistem GNU/Linux
+- Tugas penting seorang UNIX, GNU/Linux Sistem Administrator
