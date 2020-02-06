@@ -28,7 +28,7 @@ paginate = 9
   resampleFilter = "lanczos"
 
 [params]
-  googleAdsense = "ca-pub-3520097993586116"
+  #googleAdsense = "ca-pub-3520097993586116"
 
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
