@@ -27,7 +27,7 @@ pernah saya pelajari.
 
 ## **Kontak**
 Jika Anda punya kritik, saran, atau pertanyaan. Hubungi saya melalui alamat dibawah ini :
-- Telegram: [@dsnvhlm](https//t.me/dsnvhlm)
+- Telegram: [@dsnvhlm](https://t.me/dsnvhlm)
 - Email: [dsnvhlm@gmail.com](mailto:dsnvhlm@gmail.com)
 
 ***
