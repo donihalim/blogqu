@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2020-02-09T10:31:21Z
 title: "Mengakses SSH Tanpa Password Menggunakan SSH Keys"
 subtitle: "Login SSH lebih aman menggunakan public-key SSH di GNU/Linux."
@@ -69,13 +69,33 @@ Gunakan perintah `ssh-copy-id` untuk menyalin public-key dari komputer lokal ke 
 ```
 $ ssh-copy-id user@server -p (port)
 ```
-{{< photo src="" alt="Menyalin Public Key" >}}
+{{< photo src="ssh1.png" alt="Menyalin Public Key" >}}
 
 ## **Mencoba Login ke Server Tanpa Password**
 Setelah menyalin public-key ke server, seharusnya saat ini Anda sudah dapat login ke server tanpa menginput password.
 ```
 $ ssh user@server -p (port)
 ```
-{{< photo src="" alt="Login Tanpa Password" >}}
+{{< photo src="ssh2.png" alt="Login Tanpa Password" >}}
+
+## **Memblokir Password Login**
+Sebagai keamanan tambahan, di rekomendasikan untuk menonaktifkan login menggunakan password. Artinya
+Anda tidak akan dapat mengakses server dari perangkat yang public-key nya tidak terdaftar di server.
+
+Di dalam server, buka file `/etc/ssh/sshd_config` dengan teks editor pilihan Anda kemudian cari baris **PasswordAuthentication** lalu ubah value nya menjadi **no**.
+
+```
+PasswordAuthentication no
+```
+Simpan hasil modifikasi kemudian restart service ssh pada server.
+```
+$ sudo service ssh restart
+```
+Maka jika Anda mencoba login ke server menggunakan perangkat yang public-key nya belum terdaftar,
+akan tampil pesan berikut:
+
+{{< photo src="ssh3.png" alt="Password Login Ditolak" >}}
 
 ***
+
+Sekian dari Penulis, semoga tulisan ini dapat bermanfaat bagi Anda dan terima kasih telah menyempatkan waktu untuk membaca tulisan ini. Jika dirasa ada yang kurang atau Anda memiliki kritik dan saran silahkan berikan komentar melalui kolom di bawah. Hatur nuhun.
