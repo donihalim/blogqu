@@ -84,6 +84,12 @@ title = "Belajar Sistem Operasi Linux"
   weight = 4
   identifier = "profil"
   url = "/profil"
+[[menu.main]]
+  name = "Kebijakan Privasi"
+  title = "Privacy Policies"
+  weight = 5
+  identifier = "/policy"
+  url = "/policy"
 
 # For footer
 [params.license]
