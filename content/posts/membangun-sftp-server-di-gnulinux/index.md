@@ -1,9 +1,9 @@
 ---
 draft: true
 date: 2020-02-13T02:08:33Z
-title: "Membangun SFTP Server Di GNU/Linux"
+title: "Membuat SFTP Server Di GNU/Linux"
 subtitle: "Berbagi berkas lebih mudah dan aman menggunakan SFTP."
-seotitle: "Membangun SFTP Server Di GNU/Linux"
+seotitle: "Membuat SFTP Server Di GNU/Linux"
 description : "Berbagi berkas antar server lebih mudah dan aman menggunakan SFTP."
 slug: ""
 categories:
@@ -20,7 +20,7 @@ dengan FTP(File Transfer Protocol) sebuah metode yang paling umum digunakan untu
 berbagi(download/upload) berkas
 antar server atau client ke server. 
 
-Namun karena alasan keamanan, FTP mulai ditinggalkan dan mulai beralih ke
+Namun karena alasan keamanan, FTP mulai ditinggalkan dan pengguna mulai beralih ke
 SFTP. Sebelum lanjut ke pokok pembahasan, penulis akan menjelaskan terlebih dahulu mengenai apa itu SFTP secara
 singkat.
 
@@ -32,7 +32,7 @@ dengan FTP, hanya saja koneksi yang dibawa oleh FTP tidak ter-enkripsi sehingga 
 keamanan.
 
 Anda dapat menemukan penjelasan lebih lengkap mengenai SFTP di Internet. Selanjutnya penulis akan
-menjelaskan bagaimana cara membangun SFTP server di GNU/Linux.
+menjelaskan bagaimana cara membuat SFTP server di GNU/Linux.
 
 ***
 
