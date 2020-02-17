@@ -21,3 +21,9 @@
   for = "*.css" # css files too
   [headers.values]
     Cache-Control = "public, max-age=31536000"
+
+[[redirects]]
+  from = "https://halimboi.netlify.com/*"
+  to = "https://www.halimboi.com/:splat"
+  status = 301
+  force = true

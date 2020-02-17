@@ -100,9 +100,3 @@ title = "Belajar Sistem Operasi Linux"
   name = "categories"
   weight =  1 # We don't really need this, but omitting it would disable the indice.
   includeNewer = true
-
-[[redirects]]
-  from = "http://halimboi.netlify.com/*"
-  to = "http://www.halimboi.com/:splat"
-  status = 301
-  force = true
