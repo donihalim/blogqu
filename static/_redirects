@@ -1,0 +1,2 @@
+# redirects
+http://halimboi.netlify.com/* http://www.halimboi.com/:splat 301!
