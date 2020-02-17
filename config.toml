@@ -2,7 +2,7 @@
 #image vertical = 1920x1440px
 
 baseURL = "https://halimboi.com/"
-languageCode = "en-us"
+languageCode = "id-ID"
 DefaultContentLanguage = "id"
 theme = "less"
 googleAnalytics = "UA-155099144-3"
