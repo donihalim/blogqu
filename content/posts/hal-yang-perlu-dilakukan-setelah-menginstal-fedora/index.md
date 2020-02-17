@@ -25,7 +25,7 @@ diperlukan karena Anda akan mengunduh paket-paket yang diperlukan dari server. B
 
 ***
 
-## **1. Melakukan Update Sistem**
+# 1. Melakukan Update Sistem
 
 Melakukan update sistem merupakan hal dasar yang biasa dilakukan setelah pertama kali menginstal sistem operasi GNU/Linux.
 Terlepas dari _distribusi_ apapun yang Anda gunakan.
@@ -40,7 +40,7 @@ komputer Anda.
 Setelah proses update selesai pertimbangkan melakukan **reboot**, terutama jika _kernel_ dan
 _driver_ yang terinstal ikut terupdate.
 
-## **2. Mengubah Hostname**
+# 2. Mengubah Hostname
 
 Dikarenakan tidak adanya opsi untuk mengubah _hostname_ pada saat proses instalasi Fedora GNU/Linux,
 maka Anda perlu mengubahnya secara manual. Pertama kali selesai menginstal Fedora GNU/Linux, hostname yang
@@ -52,7 +52,7 @@ $ sudo hostnamectl set-hostname --static hostname-anda
 ```
 **Note** : Reboot diperlukan.
 
-## **3. Menambahkan Repository RPM Fusion**
+# 3. Menambahkan Repository RPM Fusion
 
 **RPM Fusion** adalah repository _pihak ketiga_ yang menawarkan berbagai perangkat lunak **free** dan **non-free** yang tidak
 disediakan oleh repository resmi Fedora GNU/Linux.
@@ -71,7 +71,7 @@ $ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonf
 Untuk melihat repository pihak ketiga lain nya, kunjungi:
 [RPMFusion](https://rpmfusion.org/FedoraThirdPartyRepos)
 
-## **4. Mengakfikan Plugin DeltaRPM dan Fastest Mirror**
+# 4. Mengakfikan Plugin DeltaRPM dan Fastest Mirror
 Alih-alih mengunduh paket lengkap untuk perubahan kecil saat melakukan update pada paket tertentu,
 **DeltaRPM** memungkinkan Anda untuk hanya mengunduh perubahan yang terjadi pada paket tersebut saja.
 Contohnya jika Anda mengupdate Firefox(54) ke Firefox(55), Anda hanya akan mengunduh
@@ -90,7 +90,7 @@ deltarpm=True
 fastestmirror=True
 ```
 
-## **5. Mengganti Lingkungan Desktop**
+# 5. Mengganti Lingkungan Desktop
 Jika Anda kurang menyukai GNOME atau merasa bahwa lingkungan desktop tersebut terlalu berat, Anda dapat
 menggantinya dengan lingkungan desktop lain nya. Berikut beberapa lingkungan desktop yang dapat
 menjadi opsi untuk menggantikan GNOME.

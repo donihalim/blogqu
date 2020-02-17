@@ -20,14 +20,14 @@ GNU/Linux server secara _remot_. Dengan menggunakan SSH keys Anda tidak perlu la
 password setiap kali melakukan login ke server. Selain itu, metode ini juga diklaim lebih aman dari pada
 menggunakan password atau passphrase.
 
-## **Sebelum Anda Mulai**
+# Sebelum Anda Mulai
 Perlu di ingat bahwa mengakses SSH tanpa password disini bukan semata-mata Anda login ke server tanpa password
 sama sekali. Anda tetap memerlukan password untuk login ke server yang nantinya digunakan untuk menyalin
 _public-key_ yang akan Anda buat di komputer lokal ke dalam server.
 
 ***
 
-## **Penjelasan**
+# Penjelasan
 Disini Anda akan menggunakan perintah **ssh-keygen** untuk membuat SSH Keys yang mana nantinya akan
 terbuat dua file baru di dalam direkori `~/.ssh` dengan nama **"id_rsa"** dan **"id_rsa.pub"**.
 
@@ -39,7 +39,7 @@ terbuat dua file baru di dalam direkori `~/.ssh` dengan nama **"id_rsa"** dan **
 
 Selanjutnya Anda dapat membuat kedua keys tersebut dengan mengikuti langkah-langkah dibawah ini.
 
-## **Membuat SSH Keys**
+# Membuat SSH Keys
 Untuk mengbuat private-key dan public-key, jalankan perintah berikut di komputer lokal yang akan Anda
 gunakan untuk mengakses server :
 ```
@@ -61,7 +61,7 @@ Prompt selanjutnya memungkinkan Anda untuk memberikan password pada private-key.
 akan diminta memasukan password setiap kali menggunakan key tersebut. Anda juga dapat membiarkannya
 kosong dengan menekan **ENTER**.
 
-## **Menyalin Public-Key SSH ke Server**
+# Menyalin Public-Key SSH ke Server
 Selanjutnya untuk mengakses server menggunakan public-key yang telah Anda buat, Anda harus menyalin nya
 terlebih daluhu dari komputer lokal ke server.
 
@@ -71,14 +71,14 @@ $ ssh-copy-id user@server -p (port)
 ```
 {{< photo src="ssh1.png" alt="Menyalin Public Key" >}}
 
-## **Mencoba Login ke Server Tanpa Password**
+# Mencoba Login ke Server Tanpa Password
 Setelah menyalin public-key ke server, seharusnya saat ini Anda sudah dapat login ke server tanpa menginput password.
 ```
 $ ssh user@server -p (port)
 ```
 {{< photo src="ssh2.png" alt="Login Tanpa Password" >}}
 
-## **Memblokir Password Login**
+# Memblokir Password Login
 Sebagai keamanan tambahan, di rekomendasikan untuk menonaktifkan login menggunakan password. Artinya
 Anda tidak akan dapat mengakses server dari perangkat yang public-key nya tidak terdaftar di server.
 

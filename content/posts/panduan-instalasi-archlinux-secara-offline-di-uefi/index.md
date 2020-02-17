@@ -21,7 +21,7 @@ Pada dasarnya proses instalasi Arch Linux secara offline ini yaitu dengan mengko
 Perlu digarisbawahi bahwa panduan ini ditujukan untuk Anda yang pernah atau sudah berhasil melakukan instalasi Arch Linux secara normal(**baca**: pacstrap) yang mana akan mengunduh paket-paket yang diperlukan kedalam media instalasi.
 >Like always, do with your own risk.
 
-## **Menyiapkan Partisi**
+# Menyiapkan Partisi
 Untuk membuat partisi, Anda dapat menggunakan aplikasi perkakas `cgdisk` atau `cfdisk`.
 Sebagai contoh, berikut skema partisi yang telah saya buat :
 - **/dev/sda1**, 4GB untuk partisi swap
@@ -29,7 +29,7 @@ Sebagai contoh, berikut skema partisi yang telah saya buat :
 - **/dev/sda3**, 20GB untuk partisi / (baca: root)
 - **/dev/sda4**, 20GB untuk partisi /home
 
-## **Memformat Partisi**
+# Memformat Partisi
 
 **PERINGATAN** : ketika hendak melakukan format pada partisi, pastikan kembali partisi tersebut benar-benar partisi yang tepat. Anda tidak ingin kehilangan data-data penting Anda.
 
@@ -42,7 +42,7 @@ mkfs.ext4 /dev/sda4 -L "ArchHome"
 ```
 >Sesuaikan /dev/sdaX dengan partisi yang telah anda buat.
 
-## **Mounting Partisi**
+# Mounting Partisi
 Setelah melakukan format pada ke-4 partisi di atas, kemudian lakukan mounting dan mengaktifkan swap.
 >Jika Anda mengikuti skema partisi saya, maka Anda dapat langsung mengkopi perintah dibawah. Namun jika skema partisi Anda berbeda, silahkan disesuaikan.
 
@@ -56,7 +56,7 @@ mkdir /mnt/boot/efi
 mount /dev/sda2 /mnt/boot/efi
 mount /dev/sda4 /mnt/home
 ```
-## **Instal archiso Ke Target Instalasi**
+# Instal archiso Ke Target Instalasi
 Pada langkah ini, jika Anda melaukan intalasi secara normal maka Anda akan menggunakan perintah `pacstrap` yang mana akan mengunduh paket-paket yang diperlukan ke dalam target instalasi. Namun dikarenakan kita melakukan instalasi secara offline, maka kita akan mengkopi keseluruhan isi dari ***archiso***. Jalankan perintah berikut untuk mengkopi keseluruhan isi dari ***archiso*** :
 
 ```
@@ -68,14 +68,14 @@ Setelah itu, kopi kernel image kedalam ***root*** baru :
 ```
 cp -vaT /run/archiso/bootmnt/arch/boot/$(uname -m)/vmlinuz /mnt/boot/vmlinuz-linux
 ```
-## **Generating Fstab**
+# Generating Fstab
 Mounting partisi yang telah dibuat secara permanen dengan cara memasukan nya kedalam `fstab`.
 ```
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
 Periksa kembali file `/mnt/etc/fstab` untuk memastikan tidak ada kesalahan.
 
-## **Masuk Kedalam Lingkungan Chroot**
+# Masuk Kedalam Lingkungan Chroot
 Setelah melakukan langkah-langkah diatas, masuk kedalam lingkungan chroot untuk mengkonfigurasi sistem baru.
 Jalankan perintah berikut :
 ```
@@ -119,11 +119,11 @@ rm -r /etc/initcpio
 pacman-key --init
 pacman-key --populate archlinux
 ```
-## **Konfigurasi Sistem Baru**
+# Konfigurasi Sistem Baru
 Ketika sudah berada didalam lingkungan chroot sistem baru, maka saatnya melakukan konfigurasi seperti **zona waktu**, **bahasa**, **hostname**, **user**, dan **group**.
 
 
-## **Mengatur Zona Waktu**
+# Mengatur Zona Waktu
 
 Waktu Indonesia Barat(**WIB**)
 ```
@@ -141,7 +141,7 @@ Setelah memilih zona waktu, jalankan perintah berikut :
 ```
 hwclock --systohc --utc
 ```
-## **Mengatur Locale atau Bahasa**
+# Mengatur Locale atau Bahasa
 ```
 nano /etc/locale.gen
 ```
@@ -164,13 +164,13 @@ LC_TIME=id_ID.UTF-8
 ```
 Kemudian jalankan perintah `locale-gen`.
 
-## **Mengatur Hostname**
+# Mengatur Hostname
 Untuk membuat file hostname, jalankan perintah berikut:
 ```
 echo nama-anda > /etc/hostname
 ```
 
-## **Membuat Group dan user**
+# Membuat Group dan user
 Untuk membuat group, user dan mengatur password, jalankan perintah berikut :
 ```
 groupadd sudo
@@ -192,13 +192,13 @@ passwd user-anda
 passwd root
 ```
 
-## **Initramfs**
+# Initramfs
 Untuk membuat initramfs baru, jalankan perintah berikut :
 ```
 mkinitcpio -P
 ```
 
-## **Instal GRUB**
+# Instal GRUB
 Selah melakukan langkah-langkah diatas, saatnya untuk melakukan instalasi GRUB.
 ```
 grub-install /dev/sdX
@@ -208,7 +208,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 Sampai disini proses instalasi sudah selesai, Anda dapat keluar dari lingkungan chroot dan melakukan reboot pada sistem. Namun, untuk menghindari hal-hal yang tidak diinginkan sebaiknya melakukan **umount** pada partisi yang sebelumnya telah di **mount**. Dan selamat anda telah berhasil melakukan instalasi Arch Linux secara offline.
 
-## **Penutup**
+# Penutup
 Sebenarnya tulisan ini saya khususkan untuk menjadi catatan pribadi saja, dikarenakan seringnya saya melakukan proses instal ulang. Namun jika Anda merasa terbantu dengan tulisan ini, saya akan sangat bersyukur.
 Mohon maaf jika ada kesalahan-kesalahan dalam penulisan, saat ini saya masih dalam proses pembelajaran dalam menulis.
 
