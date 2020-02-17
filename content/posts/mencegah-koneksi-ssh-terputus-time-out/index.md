@@ -29,7 +29,7 @@ Sebagai catatan, untuk melakukan konfigurasi pada sisi server, Anda harus memili
 
 ***
 
-## **Penjelasan**
+# Penjelasan
 Sebelum Anda mulai, penulis akan menjelaskan dua istilah yang akan digunakan di panduan ini. Dua istilah
 tersebut adalah ***sisi client*** dan ***sisi server***.
 
@@ -40,7 +40,7 @@ tersebut adalah ***sisi client*** dan ***sisi server***.
 
 Berikut ini cara melakukan konfigurasi SSH pada kedua sisi (client dan server).
 
-## **1. Sisi client**
+# 1. Sisi client
 Cara ini digunakan jika Anda tidak memiliki akses ***superuser*** pada server yang akan Anda akses.
 
 Ada beberapa cara untuk melakukan konfigurasi pada sisi client, berikut akan penulis jelaskan
@@ -99,7 +99,7 @@ Setelah melakukan konfigurasi pada sisi client dengan salah satu cara di atas, s
 akan memiliki masalah terputus nya koneksi SSH ketika tidak digunakan. Selanjutnya penulis akan menjelaskan
 cara melakukan konfigurasi pada sisi server.
 
-## **2. Sisi Server**
+# 2. Sisi Server
 Jika Anda melakukan konfigurasi pada sisi client, maka Anda perlu melakukan nya pada
 setiap komputer lokal yang Anda gunakan untuk mengakses server. Hal tersebut dapat di atasi dengan
 melakukan konfigurasi pada sisi server.
