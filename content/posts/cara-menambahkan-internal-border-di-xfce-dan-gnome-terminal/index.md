@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2020-02-17T22:46:28Z
 title: "Cara Menambahkan Internal Border Di Xfce Dan Gnome Terminal"
 subtitle: "Buat terminal lebih nyaman dipandang dengan menambahkan internal border atau padding"
@@ -40,12 +40,12 @@ $ vim ~/.config/gtk-3.0/gtk.css
 Kemudian tambahkan baris dibawah ini:
 ```
 vte-terminal {
-    padding: 8px;
+    padding: 10px;
 }
 ```
 {{< photo src="terminal2.png" alt="Editing gtk.css" >}}
 
-Ubah jarak **8px** sesuai keinginan Anda. Setelah itu simpan hasil editing dan tutup terminalnya
+Ubah jarak **10px** sesuai keinginan Anda (misal 8px). Setelah itu simpan hasil editing dan tutup terminalnya
 terlebih dahulu, kemudian buka kembali.
 
 {{< photo src="terminal3.png" alt="Terminal Dengan Internal Border" >}}
