@@ -10,7 +10,7 @@ RemovePathAccents = true
 timeout = 200000
 enableRobotsTXT = true
 canonifyURLs = true
-paginate = 9
+paginate = 6
 
 [author]
   name = "Doni Halim"
