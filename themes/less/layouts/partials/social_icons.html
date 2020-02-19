@@ -62,4 +62,9 @@
       <svg width="18" height="18" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path style="line-height:1.25;-inkscape-font-specification:'Source Sans Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" d="M23.934 3.8l-3.64 17.025q-.429 1.82-1.981.963l-5.515-4.068-2.676 2.57q-.536.535-1.125.535l.429-5.622L19.65 5.995q.375-.375 0-.428-.321-.107-.696.16L6.32 13.704.86 11.991q-.91-.268-.857-.803.054-.535 1.124-.91l21.255-8.245q.803-.268 1.284.214.482.429.268 1.553z"/></svg>
     </a>
   {{ end }}
+  {{ with .Site.Params.social.linkedin }}
+    <a href="https://linkedin.com/in/{{.}}">
+        <svg width="18" height="18" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+    </a>
+  {{ end }} 
 </div>
