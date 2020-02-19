@@ -1,5 +1,5 @@
 ---
 title: "Linux"
-seotitle: "Linux - Halim Boi"
+seotitle: "Linux - Halimboi"
 description: "Tutorial seputar sistem operasi linux."
 ---

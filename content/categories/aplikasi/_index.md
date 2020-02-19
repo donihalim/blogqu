@@ -1,5 +1,5 @@
 ---
 title: "Aplikasi"
-seotitle: "Aplikasi - Halim Boi"
+seotitle: "Aplikasi - Halimboi"
 description: "Aplikasi untuk GNU/Linux dan Android."
 ---
