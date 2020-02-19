@@ -20,12 +20,19 @@
     "author" : "{{ range .Site.Author }}{{ . }}{{ end }}",
     "creator" : "{{ range .Site.Author }}{{ . }}{{ end }}",
     "publisher": {
+
       "@type": "Organization",
       "name": "{{ range .Site.Author }}{{ . }}{{ end }}",
       "logo" : {
         "@type": "ImageObject",
         "url": "{{ . | absURL }}"
-        }
+      }
+      "sameAs": [
+        "https://facebook.com/drtunicorn",
+        "https://twitter.com/halimboi",
+        "https://instagram.com/dsnvhlmb",
+        "https://linkedin.com/in/doni-halim-16a6ba1a0"
+      ]
     },
     "accountablePerson" : "{{ range .Site.Author }}{{ . }}{{ end }}",
     "copyrightHolder" : "{{ range .Site.Author }}{{ . }}{{ end }}",
