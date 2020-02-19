@@ -1,5 +1,5 @@
 ---
 title: "Desktop"
-seotitle: "Desktop - Halim Boi"
+seotitle: "Desktop - Halimboi"
 description: "Kumpulan tips pengaturan desktop."
 ---

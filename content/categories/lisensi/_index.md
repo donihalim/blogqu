@@ -1,5 +1,5 @@
 ---
 title: "Lisensi"
-seotitle: "Lisensi - Halim Boi" 
+seotitle: "Lisensi - Halimboi" 
 description: "Memahami lisensi dengan Free Software."
 ---

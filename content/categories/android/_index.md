@@ -1,5 +1,5 @@
 ---
 title: "Android"
-seotitle: "Android - Halim Boi"
+seotitle: "Android - Halimboi"
 description: "Tutorial seputar sistem operasi android."
 ---
