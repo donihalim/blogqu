@@ -2,7 +2,6 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 <meta name="keywords" content="{{ if isset .Params "tags" }}{{ range .Params.tags }}{{ . }},{{ end }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
-<meta name="p:domain_verify" content="{{ .Site.Params.pinterestVerify }}"/>
 <script type="application/ld+json">
 {
     "@context" : "http://schema.org",
@@ -28,10 +27,10 @@
         "url": "{{ . | absURL }}"
       },
       "sameAs": [
-        "https://facebook.com/drtunicorn",
-        "https://twitter.com/halimboi",
-        "https://instagram.com/dsnvhlmb",
-        "https://linkedin.com/in/doni-halim-16a6ba1a0"
+        "https://facebook.com/{{ .Site.Params.social.facebook }}",
+        "https://twitter.com/{{ .Site.Params.social.twitter }}",
+        "https://instagram.com/{{ .Site.Params.social.instagram }}",
+        "https://linkedin.com/in/{{ .Site.Params.social.linkedin }}"
       ]
     },
     "accountablePerson" : "{{ range .Site.Author }}{{ . }}{{ end }}",
