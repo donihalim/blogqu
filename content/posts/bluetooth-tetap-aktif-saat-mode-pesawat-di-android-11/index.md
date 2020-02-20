@@ -20,7 +20,7 @@ akan menjadi lebih _pintar_ lagi.
 
 ***
 
-# Keterangan
+## Keterangan
 
 Sebuah _commit_ dari Gerrit AOSP yang berjudul **"Context-aware Bluetooth airplane mode"** meminta Google untuk
 mengubah fungsi dari mode pesawat di Android 11 untuk tidak mematikan Bluetooth saat Anda sedang melakukan

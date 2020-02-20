@@ -20,13 +20,13 @@ Saya [Doni](https://itsdoni.netlify.com), pengembang sekaligus penulis artikel d
 
 ***
 
-### Blog
+## Blog
 **Halimboi** membahas seputar sistem operasi Android, GNU/Linux dan perangkat Raspberry Pi.
 Blog ini dibangun menggunakan [Hugo](https://gohugo.io/) _static site generator_ di atas sistem operasi
 Android dengan bantuan aplikasi _Termux_. Tujuan membangun blog ini untuk membagikan hal-hal yang
 pernah saya pelajari.
 
-### Kontak
+## Kontak
 Jika ada yang ingin Anda sampaikan, hubungi saya melalui alamat dibawah ini :
 
 - Telegram: [@dsnvhlm](https://t.me/dsnvhlm)

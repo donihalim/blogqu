@@ -23,7 +23,7 @@ Ada **dua** cara untuk melakukan hal tersebut, yaitu melalui **GUI** dan **Conso
 
 ***
 
-# 1. GUI
+## 1. GUI
 Cara ini dapat Anda lakukan jika GNU/Linux yang terinstal memiliki lingkungan desktop.
 
 Pertama buka terminal dan jalankan perintah berikut :
@@ -43,7 +43,7 @@ Pada bagian **Connection Name** beri nama sesuai keinginan Anda, dan pada bagian
 
 Simpan hasil konfigurasi tersebut dengan meng-klik tombol **save**. Setelah itu sambungkan kedua perangkat dengan kabel LAN. Maka perangkat yang Anda sambungkan dengan laptop akan otomatis terkoneksi dengan internet.
 
-# 2. Console
+## 2. Console
 Seperti yang saya sebutkan di atas, selain melalui GUI, Anda juga dapat melakukan nya pada Console. Hal ini dilakukan jika GNU/Linux yang terinstal tidak memiliki lingkungan desktop.
 
 Pada console, jalankan perintah berikut :
