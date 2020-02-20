@@ -29,10 +29,10 @@
         {{ end }} ↠
         {{ .post.Date.Day }} {{ index .ctx.Site.Data.mois (printf "%d" .post.Date.Month) }} {{ .post.Date.Year }}
       </span>
-    <h3 class="title">
+    <h1 class="small title">
         {{ .post.Params.emoji }}
         <a class="title bold no-decoration" href="{{ .post.Permalink }}">{{ .post.Title }}</a><br/>
-    </h3>
+    </h1>
     <p>
       {{ .post.Summary | replaceRE "(?ms)(<(figure|blockquote).*</(figure|blockquote)>)" "" | safeHTML | truncate 200 }}
     </p>
