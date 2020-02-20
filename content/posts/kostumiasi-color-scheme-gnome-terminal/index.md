@@ -21,13 +21,13 @@ Pada tulisan ini Penulis akan membagikan kumpulan color scheme untuk GNOME Termi
 
 ***
 
-# Pre-Install
+## Pre-Install
 Seperti yang disebutkan pada bagian [instalasi](https://github.com/Mayccoll/Gogh?files=1#pre-install) di laman Github Gogh, Anda diharuskan menginstal paket yang diperlukan untuk menjalankan script tersebut. Buka terminal lalu jalankan perintah berikut:
 ```
 $ sudo apt-get install dconf-cli uuid-runtime
 ```
 
-# Menginstal dan Memilih Color Scheme
+## Menginstal dan Memilih Color Scheme
 Untuk menginstal color scheme yang tersedia, Anda cukup menjalankan satu baris perintah di terminal.
 ```
 $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
