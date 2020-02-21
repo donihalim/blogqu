@@ -11,6 +11,7 @@ timeout = 200000
 enableRobotsTXT = true
 canonifyURLs = true
 paginate = 6
+disqusShortname = "halimboi"
 
 [author]
   name = "Doni Halim"
