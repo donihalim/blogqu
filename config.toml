@@ -86,17 +86,21 @@ title = "Belajar Sistem Operasi Linux"
   weight = 4
   identifier = "profil"
   url = "/profil"
-[[menu.main]]
-  name = "Kebijakan Privasi"
-  title = "Privacy Policies"
-  weight = 5
-  identifier = "/policy"
-  url = "/policy"
+#[[menu.main]]
+#  name = "Kebijakan Privasi"
+#  title = "Privacy Policies"
+#  weight = 5
+#  identifier = "/policy"
+#  url = "/policy"
 
 # For footer
 [params.license]
   type = "CC BY-NC 4.0"
   url = "/cc-by-nc"
+
+[params.policy]
+  type = "Privacy Policy"
+  url = "/policy"
 
 [[related.indices]]
   name = "categories"
