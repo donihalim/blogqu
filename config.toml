@@ -30,6 +30,7 @@ disqusShortname = "halimboi"
 
 [params]
   googleAdsense = "ca-pub-3520097993586116"
+  copyright = "Halimboi"
 
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
