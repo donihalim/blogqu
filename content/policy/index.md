@@ -3,6 +3,7 @@ draft: false
 date: 2020-02-11T11:24:53Z
 title: "Privacy Policy"
 seotitle: "Kebijakan Privasi - Halimboi"
+description : "Kebijakan privasi blog Halimboi."
 type: "policy"
 resources:
 - src: "cover.jpeg"
