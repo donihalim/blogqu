@@ -25,6 +25,7 @@
     <p class="center t12"><i>Gear: </i>{{ delimit .Params.gear " ● " }}</p>
   {{ end }}
   <div id="comments" class="thin">
+    {{ partial "love.html" . }}
     {{- partial "comments.html" . -}}
   </div>
 </div>

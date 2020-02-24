@@ -1,0 +1,43 @@
+  .love-post {
+    padding: 16px 16px 12px;
+  }
+  .love-post .love-post-btn {
+    background-color: #fff;
+    border: 1px solid #eee;
+    display: inline-block;
+    border-radius: 50%;
+    width: 56px;
+    height: 55px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: 0;
+  }
+  .love-post .love-post-btn svg {
+    fill: #bdbdbd;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    vertical-align: middle;
+    z-index: -1;
+    width: 30px;
+    height: 30px;
+  }
+  .love-post .love-post-btn:hover svg {
+    fill: #616161;
+  }
+  .love-post .love-post-btn .love-post-icon--loved svg {
+    fill: #f50057;
+  }
+  .love-post .love-post-count {
+    display: inline;
+    font-family: var(--sans-serif-font);
+    font-size: 18px;
+    margin: 0 8px;
+    vertical-align: middle;
+  }
+  @media (max-width: 959px) {
+    .love-post .love-post-count {
+      display: block;
+      margin: 12px 0 0;
+      word-break: break-word;
+    }
+  }
