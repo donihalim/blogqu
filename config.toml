@@ -36,9 +36,9 @@ disqusShortname = "halimboi"
   tags = []
 
   # fonts
-  sansSerifFont = "Oswald"
-  titleFont = "Oswald"
-  bodyFont = "Muli"
+  sansSerifFont = "Josefin Sans"
+  titleFont = "Crimson Text"
+  bodyFont = "Lora"
 
   hasLogo = true
   accentColor = "#00bcd4"
