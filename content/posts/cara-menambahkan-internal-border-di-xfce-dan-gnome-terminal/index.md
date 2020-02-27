@@ -19,7 +19,7 @@ resources:
 
 Sampurasun.
 
-Internal border atau padding merukapan jarak antara teks dan batas terminal, hal ini membuat output
+Internal border atau padding merupakan jarak antara teks dan batas terminal, hal ini membuat output
 teks menjadi lebih ketengah sehingga tidak terlalu rapat dengan terminal. Sangat berguna ketika Anda
 sedang membaca _log_ melalui terminal saat melakukan debugging.
 
