@@ -60,30 +60,30 @@ disqusShortname = "halimboi"
   facebook = "drtunicorn"
   linkedin = "doni-halim-16a6ba1a0"
   github = "donihalim"
-  gitlab = "donihalim"
+  paypal = "halimboi"
   telegram = "dsnvhlm"
 
 [[menu.main]]
-name = "Android"
-title = "Belajar Sistem Operasi Android"
+name = "Raspberry Pi"
+title = "Tutorial dan tips Seputar perangkat Raspberry Pi"
   weight = 1
-  identifier = "android"
-  url = "/android"
+  identifier = "raspberrypi"
+  url = "/raspberrypi"
 [[menu.main]]
 name = "GNU/Linux"
-title = "Belajar Sistem Operasi Linux"
+title = "Tutorial dan tips Seputar sistem operasi GNU/Linux"
   weight = 2
   identifier = "linux"
   url = "/linux"
 [[menu.main]]
-  name = "Raspberry Pi"
-  title = "Perangkat Raspberry Pi"
+  name = "Kontak"
+  title = "Kontak Halimboi"
   weight = 3
-  identifier = "raspberrypi"
-  url = "/raspberrypi"
+  identifier = "kontak"
+  url = "/contact"
 [[menu.main]]
   name = "Profil"
-  title = "Info & kontak"
+  title = "Tentang Halimboi"
   weight = 4
   identifier = "profil"
   url = "/profil"

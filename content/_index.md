@@ -1,15 +1,16 @@
 ---
 title: "Halimboi"
-seotitle: "Halimboi - Sistem Android Blog, GNU/Linux, dan Perangkat Raspberry Pi"
-description: "GNU/Linux blog, tutorial seputar sistem operasi android, dan belajar menggunakan perangkat raspberry pi."
+seotitle: "Halimboi - Tentang GNU/Linux dan Raspberry Pi"
+description: "Blog yang membahas tentang GNU/Linux dan perangkat Raspberry Pi."
 date: 2019-07-26T22:57:50+02:00
 draft: false
 tags:
-  - android
   - linux
   - raspi
   - raspberrypi
   - floss
+  - foss
+  - desktop
   - terminal
   - server
   - pemula

@@ -1,5 +1,5 @@
 ---
 title: "Linux"
 seotitle: "Linux - Halimboi"
-description: "Tutorial seputar sistem operasi linux."
+description: "Tutorial dan tips seputar sistem operasi GNU/Linux."
 ---

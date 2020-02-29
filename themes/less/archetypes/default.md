@@ -6,6 +6,8 @@ subtitle: ""
 seotitle: ""
 description : ""
 slug: ""
+tags:
+- linux
 categories:
 - android
 - linux
@@ -16,13 +18,9 @@ resources:
 - src: "*.jpeg"
 ---
 
-## **ᮝᮤᮜᮥᮏᮨᮀ ᮞᮥᮙ᮫ᮕ**
-
-Bismillahirrohmanirrohim.
+Sampurasun.
 
 ***
-
-{{< youtube xxxxxxxxxxx >}}
 
 {{< photo src=".jpeg" alt="" >}}
 
@@ -38,7 +36,5 @@ Bismillahirrohmanirrohim.
   {{< photo src=".jpeg" alt="" >}}
   {{< photo src=".jpeg" alt="" >}}
 {{</ photoset >}}
-
-> Lorem ipsum doloret amet.
 
 ***
