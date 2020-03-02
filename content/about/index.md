@@ -1,9 +1,9 @@
 ---
-title: "Profil - Halimboi"
-seotitle: "Profil - Halimboi"
+title: "About - Halimboi"
+seotitle: "About - Halimboi"
 date: 2019-07-02T23:11:56+07:00
 draft: false
-type: "profil"
+type: "about"
 resources:
 - src: "*.jpeg"
 - src: "1.jpeg"

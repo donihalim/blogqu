@@ -76,17 +76,17 @@ title = "Tutorial dan tips Seputar sistem operasi GNU/Linux"
   identifier = "linux"
   url = "/linux"
 [[menu.main]]
-  name = "Kontak"
+  name = "Contact"
   title = "Kontak Halimboi"
   weight = 3
-  identifier = "kontak"
+  identifier = "contact"
   url = "/contact"
 [[menu.main]]
-  name = "Profil"
+  name = "About"
   title = "Tentang Halimboi"
   weight = 4
-  identifier = "profil"
-  url = "/profil"
+  identifier = "about"
+  url = "/about"
 #[[menu.main]]
 #  name = "Kebijakan Privasi"
 #  title = "Privacy Policies"
