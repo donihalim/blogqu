@@ -76,31 +76,27 @@ title = "Tutorial dan tips Seputar sistem operasi GNU/Linux"
   identifier = "linux"
   url = "/linux"
 [[menu.main]]
-  name = "Contact"
-  title = "Kontak Halimboi"
+  name = "Lisensi"
+  title = "Lisensi Halimboi"
   weight = 3
-  identifier = "contact"
-  url = "/contact"
-[[menu.main]]
-  name = "About"
-  title = "Tentang Halimboi"
-  weight = 4
-  identifier = "about"
-  url = "/about"
-#[[menu.main]]
-#  name = "Kebijakan Privasi"
-#  title = "Privacy Policies"
-#  weight = 5
-#  identifier = "/policy"
-#  url = "/policy"
+  identifier = "cc-by-nc"
+  url = "/cc-by-nc"
 
 # For footer
 [params.license]
   type = "CC BY-NC 4.0"
   url = "/cc-by-nc"
 
+[params.about]
+  type = "About"
+  url = "/about"
+
+[params.contact]
+  type = "Contact"
+  url = "/contact"
+
 [params.policy]
-  type = "Privacy Policy"
+  type = "Policy"
   url = "/policy"
 
 [[related.indices]]
