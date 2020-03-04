@@ -20,7 +20,7 @@ Sampurasun.
 
 Shortcut atau pintasan pastinya membantu Anda untuk bekerja lebih cepat dan efisien terlepas dari
 apa pun tools yang Anda gunakan. Misalnya saat sedang mengedit berkas darpida memilih seluruh teks menggunakan
-mouse, Anda dapat menggunakan shortcut CTRL+A untuk memilih seluruh teks yang ada. Lebih cepat, bukan?
+mouse, Anda dapat menggunakan shortcut **<kbd><kbd>CTRL</kbd> + <kbd>A</kbd></kbd>** untuk memilih seluruh teks yang ada. Lebih cepat, bukan?
 
 Sama halnya dengan terminal GNU/Linux. Ada beberapa shortcut keyboard yang harus Anda ketahui dan
 kuasai untuk mempermudah saat bekerja dengan terminal.
