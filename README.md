@@ -2,4 +2,4 @@
 
 # Blogqu
 
-Kode sumber [Halim Boi](https://halimboi.com).
+Kode sumber [Halimboi](https://halimboi.com).
