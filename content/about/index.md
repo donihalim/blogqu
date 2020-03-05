@@ -14,7 +14,7 @@ resources:
 
 # Sampurasun
 
-Hi, saya [Doni](https://halimbois.netlify.com), seorang pengguna GNU/Linux biasa dari Bandung - Indonesia yang baru-baru ini sangat tertarik dengan hal-hal terkait GNU/Linux dan Open Source.
+Hi, saya [DØNIX](https://halimbois.netlify.com), seorang pengguna GNU/Linux biasa dari Bandung - Indonesia yang baru-baru ini sangat tertarik dengan hal-hal terkait GNU/Linux dan Open Source.
 
 **Halimboi** sendiri merupakan blog yang membahas seputar sistem operasi GNU/Linux dan perangkat Raspberry Pi. Blog ini ditujukan sebagai tempat untuk mendokumentasikan hal-hal yang pernah saya pelajari terkait dua topik di atas.
 
