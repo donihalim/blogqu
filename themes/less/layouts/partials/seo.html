@@ -25,13 +25,7 @@
       "logo" : {
         "@type": "ImageObject",
         "url": "{{ . | absURL }}"
-      },
-      "sameAs": [
-        "https://facebook.com/{{ .Site.Params.social.facebook }}",
-        "https://twitter.com/{{ .Site.Params.social.twitter }}",
-        "https://instagram.com/{{ .Site.Params.social.instagram }}",
-        "https://linkedin.com/in/{{ .Site.Params.social.linkedin }}"
-      ]
+      } 
     },
     "accountablePerson" : "{{ range .Site.Author }}{{ . }}{{ end }}",
     "copyrightHolder" : "{{ range .Site.Author }}{{ . }}{{ end }}",
@@ -39,6 +33,12 @@
     "datePublished": {{ .Date }},
     "dateModified" : {{ .Date }},
     "url" : "{{ .Permalink }}",
+    "sameAs": [
+        "https://facebook.com/{{ .Site.Params.social.facebook }}",
+        "https://twitter.com/{{ .Site.Params.social.twitter }}",
+        "https://instagram.com/{{ .Site.Params.social.instagram }}",
+        "https://linkedin.com/in/{{ .Site.Params.social.linkedin }}"
+      ],
     "wordCount" : "{{ .WordCount }}",
     "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]
 }
