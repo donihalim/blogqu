@@ -17,7 +17,7 @@
 [Hervyqa](https://hervyqa.com).
 
 
-## License
+## Lisensi 
 Karya ini dilisensikan dibawah [GPL-3.0 License](LICENSE).
 
 ---
