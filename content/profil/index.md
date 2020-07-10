@@ -11,22 +11,18 @@ resources:
   name: "cover"
 ---
 
-![Halimboi](banner.png)
+![Banner](banner.png)
 
-# Sampurasun
+# Profil
+Sampurasun.
 
-Hello! Saya **Doni Halim**, seorang pelajar, pekerja, dan GNU/Linux enthusiast. Mulai menggunakan sistem operasi GNU/Linux sejak tahun 2017. Saat ini **Manjaro** menjadi sistem operasi utama yang saya gunakan(Single Boot).
+Saya **Doni Halim**, seorang _pelajar_ dari Bandung, Jawa Barat. Wilujeng sumping! Blog ini merupakan tempat saya membuat dokumentasi terkait hal-hal yang telah saya pelajari dalam bentuk artikel dan tutorial. Saat ini, tulisan saya berfokus pada sistem operasi **Linux** secara umum. Kedepannya semoga saya bisa mempelajari bidang IT secara lebih luas lagi dan mendokumentasikan-nya di sini.
 
-Saat ini saya tinggal di Bandung, Jawa Barat, Indonesia. Bekerja sebagai Administrasi departemen Utility Listrik salah satu perusahaan Textile di Bandung.
-
-Aktivitas menulis ini baru saya mulai pada akhir tahun 2019 lalu, yaitu saat pertama kali mengenal
-[Hugo](https://gohugo.io), sebuah _static site generator_ yang saya gunakan untuk membangun blog
-ini.
-
-Pada waktu senggang biasanya saya mengunjungi situs web [dev.to](https://dev.to/) dan [RedHat](https://redhat.org/sysadmin) untuk mencari hal-hal baru(bagi saya) terkait GNU/Linux. Dan ya! saya juga senang menonton **Anime** hehe.
+Saya membangun blog ini menggunakan _Static Site Generator_ bernama ***Hugo*** dengan tampilan yang sedikit dimodifikasi dari tema buatan [Hervyqa](https://twitter.com/hervyqa) (Terima kasih Mas Hervy). Saya menggunakan ***Netlify*** sebagai hosting, dan memanfaatkan [Github](https://github.com/donihalim) sebagai hos untuk _source code_ blog ini (Open Source Banzai!).
 
 ## Kontak
+Cara paling mudah untuk menghubungi saya adalah melalui Telegram di [@dsnvhlm](https://t.me/dsnvhlm) atau dengan menggunakan formulir kontak di bawah, namun pastikan alamat email yang Anda lampirkan aktif, karena nantinya saya akan membalas pesan tersebut ke alamat email yang Anda lampirkan. Oh ya, saya juga punya [Twitter](https://twitter.com/halimboi).
 
-Tanyakan saya apapun melalui Telegram; [@dsnvhlm](https://t.me/dsnvhlm). Atau gunakan form di bawah untuk mengirim pesan cepat.
+Hatur nuhun ✌️.
 
 ***
