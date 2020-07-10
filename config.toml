@@ -3,8 +3,8 @@ languageCode = "id-ID"
 DefaultContentLanguage = "id"
 title = "halimboi.com"
 theme = "less"
-RemovePathAccents = true
 timeout = 200000
+RemovePathAccents = true
 enableRobotsTXT = true
 canonifyURLs = true
 paginate = 5
@@ -16,20 +16,21 @@ disqusShortname = "halimboi"
 
 [blackfriday]
   hrefTargetBlank = true
-#  noreferrerLinks = true
-#  nofollowLinks = true
+  noreferrerLinks = true
+  nofollowLinks = true
 
 [permalinks]
   posts = "/:slug"
   categories = "/:slug"
 
-#[imaging]
-#  resampleFilter = "lanczos"
+[imaging]
+  resampleFilter = "lanczos"
 
 [params]
   #googleAdsense = "ca-pub-3520097993586116"
   copyright = "Halimboi"
 
+  # image size
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
@@ -38,8 +39,9 @@ disqusShortname = "halimboi"
   titleFont = "Crimson Text"
   bodyFont = "Lora"
 
-  hasLogo = true
+  # color
   accentColor = "#00bcd4"
+  hasLogo = true
   heroHeader = true
 
 [taxonomies]
@@ -49,7 +51,7 @@ disqusShortname = "halimboi"
   posts = "Linux"
   categories = "Kategori"
 
-# social media
+# social
 [params.social]
   email = "donihalim@protonmail.com"
   domain = "Doni Halim"
@@ -61,7 +63,7 @@ disqusShortname = "halimboi"
   paypal = "halimboi"
   telegram = "dsnvhlm"
 
-# menu content
+# menu contents
 [[menu.main]]
   name = "Perkakas"
   title = "Perkakas GNU/Linux"
@@ -87,13 +89,13 @@ disqusShortname = "halimboi"
   identifier = "profil"
   url = "/profil"
 
-# footer content
+# footer contents
 [params.license]
   type = "CC BY-NC 4.0"
   url = "/cc-by-nc"
 
 [params.policy]
-  type = "Policy"
+  type = "Privacy Policy"
   url = "/policy"
 
 [[related.indices]]
