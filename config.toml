@@ -1,4 +1,4 @@
-baseURL = "https://halimboi.com/"
+baseURL = "https://halimboi.netlify.app"
 languageCode = "id-ID"
 DefaultContentLanguage = "id"
 title = "halimboi.com"
